@@ -2,5 +2,23 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="174488364728095">
+            <conditions>
+                <condition id="2" name="Key is down" sid="113066604933819" type="Keyboard">
+                    <param id="0" name="Key">90</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="969809265973682" type="System">
+                    <param id="0" name="Layer">&quot;shadow&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="739171399375540" type="System">
+                    <param id="0" name="Layer">&quot;inventario&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
